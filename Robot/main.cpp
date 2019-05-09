@@ -158,12 +158,13 @@ void *Drive(void *arg) {
 					char x = char(180 - d + 90 - myJointDrive.get_P() - myJointDrive.RF_LB_X);
 					char y = char(90 + myJointDrive.get_P() + myJointDrive.LF_RB_K);
 					char z = char(180 - d + 90 - myJointDrive.get_P() - myJointDrive.LF_RB_X);
-
+					
 					//char d = char(90 + myJointDrive.get_P() + myJointDrive.RF_LB_K);
 					//char x = char(180 - (90 + myJointDrive.get_P()) + 90 - myJointDrive.get_P() - myJointDrive.RF_LB_X);
 					//char y = char(90 + myJointDrive.get_P() + myJointDrive.LF_RB_K);
 					//char z = char(180 - (90 + myJointDrive.get_P()) + 90 - myJointDrive.get_P() - myJointDrive.LF_RB_X);
 
+					printf("这是第一次分支的更改");
 					RF_K_Angle = d;
 					RF_X_Angle = x;
 					LF_K_Angle = y;
