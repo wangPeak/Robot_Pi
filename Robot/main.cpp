@@ -165,6 +165,7 @@ void *Drive(void *arg) {
 					//char z = char(180 - (90 + myJointDrive.get_P()) + 90 - myJointDrive.get_P() - myJointDrive.LF_RB_X);
 
 					printf("这是第一次分支的更改");
+					
 					RF_K_Angle = d;
 					RF_X_Angle = x;
 					LF_K_Angle = y;
